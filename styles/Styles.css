@@ -1,0 +1,73 @@
+input[type="text"] {
+    border: none;
+    border-bottom:solid rgb(30, 170, 216) 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background-color: transparent;
+  }
+body{
+    background-color: rgb(13, 13, 131);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.wrap{
+    padding: 2rem 5rem;
+    background-color:white;
+    width:90%;
+    border:solid rgb(30, 170, 216) 2px;
+    border-radius: 1rem;
+}
+h1{
+    margin-top: 1rem;
+    border:solid rgb(30, 170, 216) 2px;
+    border-radius: 1rem;
+    color: rgb(30, 170, 216);
+    text-align: center;
+    padding: 2rem;
+    background-color:white;
+    width:90%;
+    
+}
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+dt{
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-left: 33px;
+}
+dd{
+    font-size: 1rem;
+    margin-left: 50px;
+    
+}
+#confirm1,#confirm2{
+    width: 100%;
+    background-color: rgb(30, 170, 216);
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: .1rem;
+    margin-top: 1rem;
+    color: #fff;
+}
+#checkSurnames,#checkNames{
+    background-color: rgb(30, 170, 216);
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 45%;
+    padding: .1rem;
+    color: #fff;
+}
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+}
